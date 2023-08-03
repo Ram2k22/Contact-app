@@ -1,0 +1,20 @@
+.main .card{
+    background:linear-gradient(#947390,#874373);
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 3px 2px 2px;
+    padding:10px;
+    border-radius: 8px;
+    position:absolute;
+    height: 300px;
+}
+
+.main .card .content{
+    color:white;
+}
+
+.main .card:hover{
+    box-shadow: 2px 4px 4px 3px;
+}
